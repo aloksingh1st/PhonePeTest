@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+.newc{
+  padding : 10px;
+  background-color: #c81c3c;
+  color: white;  
+  font-size: 1.3rem;
+  border-radius: 20px;
+  margin-left: 40%;
+  margin-top: 20%;
+  box-shadow: 1px 2px 15px black;
+}
+
+.newc:hover{
+  transform: translateY(5px);
+  box-shadow: 4px 4px 50px black;
+  cursor: pointer;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
